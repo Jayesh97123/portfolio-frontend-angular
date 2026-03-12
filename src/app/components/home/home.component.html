@@ -1,0 +1,72 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex justify-content-around m-3 align-items-center" href="#">
+            <img src="assets/imgs/Personal.png" alt="Personal Image" class="pe-3 personal-image">
+            <h5 class="mb-0">
+                Personal
+            </h5>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <h5 class="nav-container mb-0 d-flex justify-content-center">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="onNavClick('about-me')">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="onNavClick('skills')">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="onNavClick('projects')">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="onNavClick('contact')">Contact Me</a>
+                    </li>
+                </ul>
+            </h5>
+            <div>
+                <button class="btn btn-dark">
+                    <span class="me-2">
+                        Resume
+                    </span>
+                    <i class="bi bi-download"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex align-items-center mt-4 flex-lg-row flex-column-reverse mb-4">
+    <div class="ms-4">
+        <h1>
+            Hello I'am
+            <strong>
+                Jayesh Saindane.
+            </strong>
+            Frontend Developer
+            Based in Mumbai, India
+        </h1>
+        <div>
+            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to specimen book.
+        </div>
+    </div>
+    <div class="me-4">
+        <img src="assets/imgs/Banner.png" alt="Personal Image">
+    </div>
+</div>
+
+<div class="ms-5">
+    <button class="btn btn-outline-dark me-4 btn-lg">
+        <i class="bi bi-linkedin"></i>
+    </button>
+    <button class="btn btn-outline-dark me-4 btn-lg">
+        <i class="bi bi-git"></i>
+    </button>
+</div>

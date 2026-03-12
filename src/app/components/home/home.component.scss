@@ -1,0 +1,19 @@
+.personal-image {
+    width: 35px;
+}
+
+a {
+    text-decoration: auto;
+    color: #000000;
+    cursor: pointer;
+
+    &:hover {
+        color: #007bff;
+    }
+}
+
+.nav-container {
+    position: relative;
+    left: 47%;
+    transform: translateX(-53%);
+}

@@ -1,0 +1,19 @@
+<div id="experience" class="bg-dark text-white">
+    <h2 class="text-center pt-5">
+        My <strong>Experiances</strong>
+    </h2>
+    <div>
+        @for (experiance of experiances; track $index) {
+        <div class="p-5">
+            <div class="d-flex justify-content-between">
+                <h4>{{experiance.title}}</h4>
+                <p>{{experiance.duration}}</p>
+            </div>
+
+            <div class="text-secondary">
+                {{experiance.description}}
+            </div>
+        </div>
+        }
+    </div>
+</div>

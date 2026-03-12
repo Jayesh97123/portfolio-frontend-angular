@@ -1,16 +1,18 @@
-<h2 class="text-center my-5">
-    My <strong>Skills</strong>
-</h2>
+<div id="skills" class="p-5">
+    <h2 class="text-center">
+        My <strong>Skills</strong>
+    </h2>
 
-<div class="d-flex flex-wrap">
-    @for (skill of skills; track $index) {
-    <button class="btn btn-outline-dark m-5 skill-container">
-        <div>
-            <i class="{{skill.iconClass}}"></i>
-        </div>
-        <div class="skill-name">
-            {{skill.name}}
-        </div>
-    </button>
-    }
+    <div class="d-flex flex-wrap">
+        @for (skill of skills; track $index) {
+        <button class="btn btn-outline-dark m-5 skill-container">
+            <div>
+                <i class="{{skill.iconClass}}"></i>
+            </div>
+            <div class="skill-name">
+                {{skill.name}}
+            </div>
+        </button>
+        }
+    </div>
 </div>
