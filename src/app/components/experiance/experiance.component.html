@@ -1,10 +1,10 @@
-<div id="experience" class="bg-dark text-white">
+<div id="experience" class="bg-dark text-white pb-4">
     <h2 class="text-center pt-5">
         My <strong>Experiances</strong>
     </h2>
     <div>
         @for (experiance of experiances; track $index) {
-        <div class="p-5">
+        <div class="m-5 p-3 single-experiance">
             <div class="d-flex justify-content-between">
                 <h4>{{experiance.title}}</h4>
                 <p>{{experiance.duration}}</p>

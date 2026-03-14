@@ -1,1 +1,36 @@
-<p>contact-me works!</p>
+<div class="row p-4 align-items-center">
+    <div class="col me-4">
+        <form [formGroup]="contactForm">
+            <div class="my-3">
+                <input formControlName="name" type="text" class="form-control" placeholder="Your name">
+            </div>
+            <div class="my-3">
+                <input formControlName="email" type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="my-3">
+                <textarea formControlName="message" type="text" class="form-control" placeholder="How can I help you?">
+                </textarea>
+            </div>
+            <button class="btn btn-dark" (click)="onSubmit()" [disabled]="contactForm.invalid">
+                Get In Touch
+            </button>
+        </form>
+    </div>
+    <div class="col">
+        <h2>
+            Let's Talks for something special
+        </h2>
+        <div class="my-2 text-secondary">
+            I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive
+            experiences.
+        </div>
+        <h5>
+            <div>
+                jayeshsaindane364&#64;gmail.com
+            </div>
+            <div>
+                7977469211
+            </div>
+        </h5>
+    </div>
+</div>
