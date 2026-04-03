@@ -10,9 +10,13 @@
                 <p>{{experiance.duration}}</p>
             </div>
 
-            <div class="text-secondary">
-                {{experiance.description}}
-            </div>
+            @if (experiance?.descriptions?.length) {
+            <ul>
+                @for (description of experiance?.descriptions; track description) {
+                <li>{{description}}</li>
+                }
+            </ul>
+            }
         </div>
         }
     </div>
