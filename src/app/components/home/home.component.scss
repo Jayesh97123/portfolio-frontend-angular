@@ -17,3 +17,16 @@ a {
     left: 47%;
     transform: translateX(-53%);
 }
+
+#banner-img {
+    width: 100%;
+}
+
+@media screen and (width < 992px) {
+    .nav-container {
+        position: unset;
+        left: unset;
+        transform: none;
+        padding: 0 10px;
+    }
+}

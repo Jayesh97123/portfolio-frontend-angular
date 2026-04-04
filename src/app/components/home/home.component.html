@@ -13,7 +13,7 @@
         </button>
 
         <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-            <h5 class="nav-container mb-0 d-flex justify-content-center">
+            <div class="nav-container mb-0 d-flex justify-content-center">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" (click)="onNavClick('about-me')">About Me</a>
@@ -28,7 +28,7 @@
                         <a class="nav-link" (click)="onNavClick('contact-me')">Contact Me</a>
                     </li>
                 </ul>
-            </h5>
+            </div>
             <div>
                 <button class="btn btn-dark" (click)="onDownloadResume()">
                     <span class="me-2">
@@ -58,7 +58,7 @@
         </div> -->
     </div>
     <div class="me-4">
-        <img src="assets/imgs/Banner.png" alt="Personal Image">
+        <img src="assets/imgs/Banner.png" id="banner-img" alt="Personal Image">
     </div>
 </div>
 
